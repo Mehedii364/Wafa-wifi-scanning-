@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Radar Pulse / Sensing Halo Ring -->
+    <path
+        android:pathData="M 54,54 m -26,0 a 26,26 0 1,0 52,0 a 26,26 0 1,0 -52,0"
+        android:strokeColor="#3000E5FF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000" />
+
+    <!-- Upper Wi-Fi Arc 3 (Outer) -->
+    <path
+        android:pathData="M 32,44 C 38.5,37.5 45.8,34 54,34 C 62.2,34 69.5,37.5 76,44"
+        android:strokeColor="#FF00E5FF"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Middle Wi-Fi Arc 2 -->
+    <path
+        android:pathData="M 39,52.5 C 43.5,47.8 48.4,45.5 54,45.5 C 59.6,45.5 64.5,47.8 69,52.5"
+        android:strokeColor="#FF7000FF"
+        android:strokeWidth="4.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Inner Wi-Fi Arc 1 -->
+    <path
+        android:pathData="M 46,61 C 48.5,58.2 51.1,57 54,57 C 56.9,57 59.5,58.2 62,61"
+        android:strokeColor="#FFB388FF"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Center Pulse Core Node (Glow outer + inner core) -->
+    <path
+        android:pathData="M 54,72 m -5,0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0"
+        android:fillColor="#4000E5FF" />
+    <path
+        android:pathData="M 54,72 m -3.2,0 a 3.2,3.2 0 1,0 6.4,0 a 3.2,3.2 0 1,0 -6.4,0"
+        android:fillColor="#FF00F5D4" />
+
+    <!-- Decorative Radar Sweep Segment -->
+    <path
+        android:pathData="M 54,54 L 72,36"
+        android:strokeColor="#5000E5FF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+</vector>

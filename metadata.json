@@ -1,0 +1,6 @@
+{
+  "name": "Wafa Wi-Fi Sense",
+  "description": "Wafa Wi-Fi Sense Premium - Real-time Wi-Fi analyzer, network scanner, experimental RF sensing metrics, hardware compatibility center, and local session analytics by Mehedi364.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
